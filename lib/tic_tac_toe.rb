@@ -49,7 +49,7 @@ def turn(board)
       move(board, index, player = current_player(board))
       display_board(board)
   else
-    
+
     turn(board)
   end
 end
