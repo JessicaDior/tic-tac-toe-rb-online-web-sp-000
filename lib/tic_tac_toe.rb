@@ -23,7 +23,7 @@ end
 
 def move(board, index, player)
   board[index] = player
-  player = current_player
+  player = current_player(board)
 
 end
 
