@@ -22,7 +22,7 @@ def input_to_index(user_input)
 end
 
 def move(board, index, first_player = "X")
-  board[index] = player
+  board[index] = first_player
 end
 
 
